@@ -1,0 +1,45 @@
+
+body {
+  background-image: url('img/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  font: 1.2em sans-serif;
+}
+
+a {
+    color: rgb(77, 214, 173);
+  }
+
+  img {
+ 
+    border-radius: 4px;
+    padding: 5px;
+    width: 600px;
+    height: 300px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .fs-24 {
+    font-size: 32;
+  }
+
+  div {
+    width: 600px;
+    height: 400px;
+    background-color: transparent;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+    
+  }
+  
+  @keyframes example {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    25%  {background-color:transparent; left:1024px; top:0px;}
+  }
